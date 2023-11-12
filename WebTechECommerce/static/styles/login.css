@@ -1,0 +1,95 @@
+body { 
+    background-color: black; 
+  } 
+  .title{
+    color: red;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+  .container { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: black;
+    
+    
+  } 
+  .form-container{
+   max-width: 50%;
+    height: 50%;
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 25px;
+    max-width: 850px;
+    min-width: 350px;
+    box-shadow: 5px 5px 5px red;
+  }
+    
+  form { 
+    
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 10px;
+    max-width: 850px;
+  min-width: 350px;
+    
+    
+  } 
+  .registration{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: gray;
+    width: 90%;
+    
+  }
+  #getStarted{
+    margin-top: 5px;
+    font-size: 25px;
+    width: 90%;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: gray;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  label { 
+    display: block; 
+    margin-bottom: 5px; 
+  } 
+    
+  input[type="text"], 
+  input[type="email"], 
+  input[type="password"] { 
+    width: 85%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    
+  } 
+  input[type="submit"] { 
+    margin-top: 10px;
+    background-color: red; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  } 
+  
+  input[type="submit"]:hover { 
+    background-color: rgb(215, 181, 181); 
+  }
